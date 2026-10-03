@@ -1,0 +1,29 @@
+table {
+    background-color: rgba(0, 0, 0, .385);
+    padding: .5rem;
+    border-radius: 5px;
+}
+
+th,
+td {
+    padding: .8rem;
+}
+
+.delete-item,
+.select-item {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    padding: .5rem;
+    border-radius: .2rem;
+    font-size: 14px;
+}
+
+.delete-item {
+    background-color: red;
+}
+
+.select-item {
+    background-color: blue;
+}
